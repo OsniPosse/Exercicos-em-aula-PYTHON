@@ -1,0 +1,12 @@
+classe conta-
+*classe
+*atributo
+*método
+*instancia
+
+subclasse
+class conta_gen(metodos)
+class conta ordenado(conta_gen)
+
+
+

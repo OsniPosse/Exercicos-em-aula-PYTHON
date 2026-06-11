@@ -1,0 +1,40 @@
+Programação por objetos
+
+ADT- abstract data type
+estrutura + comportamento
+
+object encapsulation
+representação* dentro da interface**
+
+*data
+**methods
+(operações, métodos)
+
+
+pilha-stack-LIFO
+FILA-QUEUE-FIFO--PRIMEIRO A ENTRAR PRIMEIRO A SAIR
+
+
+TOP-DEVOLVE O ELEMETO DO TOPO DA PILHA
+
+FILA IMPLEMENTAÇÃO
+REPRESENTAÇÃO DE DADOS
+*LIS
+
+METODOS PRINCIPAIS:
+CRIAR LISTA VAZIA
+COLOCA(ENQUEUE)(INSERE ELEMENTO NO FIM)
+RETIRA(DEQUEUE)(INSERE ELEMENTO NO FIM)
+INICIO-DEVOLVE ELEMENTO NO INICIO DA FILA
+COMPRIMENTO- NUMERO DE ELEMENTOS
+
+
+
+conjuntos 
+união a|b ou a.union(b)
+
+interseção (& OU : elementos presentes em ambos.
+
+A&B pu A.intersection(b))
+
+diferença (- OU : elementos A que não estão em B. A-B ou A.differnce(b))

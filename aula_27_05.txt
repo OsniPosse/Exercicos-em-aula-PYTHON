@@ -1,0 +1,4 @@
+poliformismo
+encapsulamento
+herança
+
