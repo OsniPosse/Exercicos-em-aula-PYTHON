@@ -41,8 +41,8 @@ print(n,soma,media,maior,menor)'''
 '''def mpg(m):
     milha=1.61
     galao=3.79
-    consumo=(galao/(milha*m))*100
-    return consumo
+    consumo=milha*m/galao
+    return 100/consumo
 print(mpg(57))'''
 
 #escreva um programa que pergunte o
