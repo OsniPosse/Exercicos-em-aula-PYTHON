@@ -45,31 +45,33 @@ print("Nota mais alta: ",maior) '''
 
 
 #tranforme MPG em litros/100km
-'''milha_em_km = 1.609344
-galao_em_litros = 3.78541178
+'''mpg=57
+milhakm=1.61
+g=3.79
+consumo
 
 
-consumo= (galao_em_litros / milha_em_km) * 100
-print(consumo)'''
+consumo= milhakm*mpg/galao
+print("resultado: ",100/consumo)'''
 
 
 
 #escreva um programa que pergunte o diametro de duas pizzas de tamanhos diferentes, e de a resposta de qual tem maior área
-'''d1 = float(input("Diâmetro da primeira pizza (cm): "))
-d2 = float(input("Diâmetro da segunda pizza (cm): "))
+'''d1 = float(input("Diâmetro da pizza grande (cm): "))
+d2 = float(input("Diâmetro da pizza familia (cm): "))
 pi=3.14
 
-area1 = pi * (d1 / 2)**2
+area1 =( pi * (d1 / 2)**2)*2
 area2 = pi * (d2 / 2)**2
 
-print("Área da pizza 1: cm²",area1)
-print("Área da pizza 2: cm²",area2)
+print("Área de duas pizzas grande: cm²",area1)
+print("Área da pizza familia: cm²",area2)
 
 
 if area1 > area2:
-    print("A primeira pizza é maior.")
+    print("duas pizzas grande tem maior area, tem mais pizza.")
 elif area2 > area1:
-    print("A segunda pizza é maior.")
+    print("uma pizza familia tem mais pizza.")
 else:
     print("As duas pizzas têm o mesmo tamanho.")'''
 
@@ -77,18 +79,14 @@ else:
 #definir uma função que receba um byte(8bits, como string)e retorne o valor em decimal
 '''def byte_para_decimal(byte_str):
     decimal = 0
-    expoente = 0
-    
-    
-    for i in range(7, -1, -1):
-        if byte_str[i] == '1':
-            decimal += 2 ** expoente
-        expoente += 1
-        
+    expoente = 7
+    for bit in byte_str:
+        decimal += int(bit) * (2 ** expoente)
+        expoente -= 1
     return decimal
 
-meu_byte = input("Digite um byte (8 bits): ")
-print("O valor decimal de é ",byte_para_decimal(meu_byte))'''
+meu_byte = str(input("Digite um byte (8 bits): "))
+print("O valor decimal de ", meu_byte, " é ", byte_para_decimal(meu_byte))'''
 
 
 #definir uma funçao para validar um NIF(string)sendo CD o check digite que é o 9º digito, 
