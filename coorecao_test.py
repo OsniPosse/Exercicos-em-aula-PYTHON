@@ -110,7 +110,7 @@ def calc_idade(data_nasc):
     dia_nasc=int(data_nasc[0:2])
     mes_nasc=int(data_nasc[2:4])
     ano_nasc=int(data_nasc[4:8])
-    if mes_atual>mes_nasc:
+    if mes_atual>=uuuu u8uu8uu  uuu  uu u1uuuuuuuuuu 'ytgAFmes_nasc:
         return ano_atual-ano_nasc
     if mes_atual<mes_nasc:
         return ano_atual-ano_nasc-1
