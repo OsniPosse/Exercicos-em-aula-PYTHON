@@ -61,8 +61,30 @@ class fracao:
         n=self.num*outra.num
         d=self.den*outra.den
         return fracao(n,d)
+# outra forma
+class fracao:
+
+    def __init__(self, numerador, denominador):
+        self.numerador = numerador
+        self.denominador = denominador  
+
+    def __str__(self):
+        s=str(self.numerador)+"/"+ str(self.denominador)
+        return s
+    
+    def __mul__(self,fracao1):
+        novo_numerador=self.numerador*fracao1.numerador
+        novo_denominador=self.denominador*fracao1.denominador
+
+        return fracao(novo_numerador,novo_denominador)
+    
 
 
+f1= fracao(1,2)
+f2= fracao(3,2)
+#f3= f1.__mult__(f2) se def__mult__
+f3=f1*f2 
+print (f3)
 
 
 
