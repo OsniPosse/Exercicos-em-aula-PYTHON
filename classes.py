@@ -104,7 +104,10 @@ class conta_bancaria:
         return quantia
     
 conta1=conta_bancaria(1,500)
-
+'''
+print(conta1.levantamento(600))  # Retorna erro de saldo insuficiente
+print(conta1.levantamento(100))  # Funciona corretamente
+print(conta1.consulta()) '''
 
 
     
